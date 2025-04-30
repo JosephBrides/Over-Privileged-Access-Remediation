@@ -31,7 +31,7 @@ Azure Account: Free Azure account with an Entra ID tenant ([sign up here](https:
 
  # 1. Create Azure Tenant and Test User:
 
-<b> Sign up for a free Azure account at portal.azure.com. <b>
+<b>Sign up for a free Azure account at portal.azure.com.<b>
 
 Navigate to  Entra ID > Overview  and note your tenant ID.
 
