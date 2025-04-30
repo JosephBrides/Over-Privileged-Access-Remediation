@@ -50,9 +50,12 @@ Azure Account: Free Azure account with an Entra ID tenant ([sign up here](https:
 -Install the Az module:
 
 powershell
+
 Install-Module -Name Az -Scope CurrentUser -Force
 
 Connect to Azure
+
 powershell 
+
 Connect-AzAccount
 
