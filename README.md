@@ -31,28 +31,28 @@ Azure Account: Free Azure account with an Entra ID tenant ([sign up here](https:
 
  # 1. Create Azure Tenant and Test User:
 
-<b>-Sign up for a free Azure account at portal.azure.com.<b>
+-Sign up for a free Azure account at portal.azure.com.
 
-Navigate to  Entra ID > Overview  and note your tenant ID.
+-Navigate to  Entra ID > Overview  and note your tenant ID.
 
-Go to Entra ID > Users > New user.
+-Go to Entra ID > Users > New user.
 
-Create a test user (e.g., testuser@yourdomain.onmicrosoft.com).
+-Create a test user (e.g., testuser@yourdomain.onmicrosoft.com).
 
-Assign the Global Administrator role to simulate the audit finding:
+-Assign the Global Administrator role to simulate the audit finding:
 
-Go to Entra ID > Roles and administrators > Global Administrator.
+-Go to Entra ID > Roles and administrators > Global Administrator.
 
-Click Add assignments, select the test user, and assign.
+-Click Add assignments, select the test user, and assign.
 
-Install PowerShell and Az Module:
+-Install PowerShell and Az Module:
 
-On a Windows machine, open PowerShell as Administrator.
+-On a Windows machine, open PowerShell as Administrator.
 
-Install the Az module:
+-Install the Az module:
 
-Install-Module -Name Az -Scope CurrentUser -Force
+(Install-Module -Name Az -Scope CurrentUser -Force)
 
-Connect to Azure:
+-Connect to Azure:
 
-Connect-AzAccount
+(Connect-AzAccount)
