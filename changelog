@@ -1,0 +1,5 @@
+Changelog
+
+2025-04-30: Removed Global Administrator from hr_user1, assigned User Administrator.
+2025-04-30: Removed Global Administrator from dev_user2, assigned Application Administrator.
+
