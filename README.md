@@ -45,14 +45,14 @@ Azure Account: Free Azure account with an Entra ID tenant ([sign up here](https:
 
 -Click Add assignments, select the test user, and assign.
 
--Install PowerShell and Az Module:
-
+# 2. Install PowerShell and Az Module:
 -On a Windows machine, open PowerShell as Administrator.
-
 -Install the Az module:
 
-(Install-Module -Name Az -Scope CurrentUser -Force)
+powershell
+Install-Module -Name Az -Scope CurrentUser -Force
 
--Connect to Azure:
+Connect to Azure
+powershell 
+Connect-AzAccount
 
-(Connect-AzAccount)
